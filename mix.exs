@@ -34,6 +34,7 @@ defmodule ProgressBar.Mixfile do
   defp deps do
     [
       {:decimal, "~> 2.0"},
+      {:dialyxir, "~> 1.4.5", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
